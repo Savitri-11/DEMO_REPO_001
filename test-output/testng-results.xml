@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="2" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-31T17:32:28 IST" name="Suite" finished-at="2025-03-31T17:32:44 IST" duration-ms="15864">
+    <groups>
+      <group name="Low">
+        <method signature="Testcase1.TC_002()[pri:0, instance:qa.tests.Testcase1@2609b277]" name="TC_002" class="qa.tests.Testcase1"/>
+      </group> <!-- Low -->
+      <group name="Regression">
+        <method signature="Testcase1.TC_002()[pri:0, instance:qa.tests.Testcase1@2609b277]" name="TC_002" class="qa.tests.Testcase1"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-03-31T17:32:28 IST" name="Regression Test" finished-at="2025-03-31T17:32:44 IST" duration-ms="15864">
+      <class name="qa.tests.Testcase1">
+        <test-method is-config="true" signature="beforetestMethod()[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:28 IST" name="beforetestMethod" finished-at="2025-03-31T17:32:28 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:28 IST" name="beforeMethod" finished-at="2025-03-31T17:32:41 IST" duration-ms="13276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.TC_002() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="TC_002()[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:41 IST" name="TC_002" description="Validate the Entity Name step" finished-at="2025-03-31T17:32:41 IST" duration-ms="22" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to read JSON file: /Users/savitrigajakosh/Documents/Generic_Selenium_Framework/src/main/resources/LogIInCredentials.json (No such file or directory)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to read JSON file: /Users/savitrigajakosh/Documents/Generic_Selenium_Framework/src/main/resources/LogIInCredentials.json (No such file or directory)
+at qa.tests.Testcase1.TC_002(Testcase1.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:41 IST" name="afterMethod" finished-at="2025-03-31T17:32:41 IST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002 status=SKIP method=Testcase1.TC_002()[pri:0, instance:qa.tests.Testcase1@2609b277] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:41 IST" name="beforeMethod" finished-at="2025-03-31T17:32:43 IST" duration-ms="1364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.Testcase1.TC_002() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_002()[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:43 IST" name="TC_002" description="Validate the Entity Name step" finished-at="2025-03-31T17:32:43 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to read JSON file: /Users/savitrigajakosh/Documents/Generic_Selenium_Framework/src/main/resources/LogIInCredentials.json (No such file or directory)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to read JSON file: /Users/savitrigajakosh/Documents/Generic_Selenium_Framework/src/main/resources/LogIInCredentials.json (No such file or directory)
+at qa.tests.Testcase1.TC_002(Testcase1.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:43 IST" name="afterMethod" finished-at="2025-03-31T17:32:44 IST" duration-ms="97" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002 status=FAILURE method=Testcase1.TC_002()[pri:0, instance:qa.tests.Testcase1@2609b277] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.Testcase1@2609b277]" started-at="2025-03-31T17:32:44 IST" name="afterTest" finished-at="2025-03-31T17:32:44 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.tests.Testcase1 -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Suite -->
+</testng-results>

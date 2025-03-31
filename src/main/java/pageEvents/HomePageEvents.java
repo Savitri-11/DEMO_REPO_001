@@ -14,8 +14,6 @@ public class HomePageEvents {
 	
 	// Locators
 	String signInButtonText = "//a[text()='Login']";
-	
-	
 
 	
     /* Method to click on Login button 
