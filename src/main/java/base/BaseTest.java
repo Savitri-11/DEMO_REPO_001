@@ -1,5 +1,7 @@
 package base;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.Iterator;
@@ -27,6 +29,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import utils.Constants;
+import utils.EmailUtil;
 
 
 @Listeners(utils.SuiteListener.class)
@@ -82,7 +85,8 @@ public class BaseTest {
 	}
 
 	@AfterTest
-	public void afterTest() {
+	public void afterTest() throws FileNotFoundException, IOException {
+		EmailUtil.sendEmail();
 		extent.flush();
 	}
 
