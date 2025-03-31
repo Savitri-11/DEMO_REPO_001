@@ -11,7 +11,7 @@
     
     <classes>
 
-      <class name="qa.tests.DIFC_WorkFlows"/>
+     <class name="qa.tests.Testcase1"/>
     </classes>
     
   </test> <!-- Test -->
